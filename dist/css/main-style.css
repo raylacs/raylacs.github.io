@@ -1,4 +1,9 @@
 * {
-	background-color: #112233;
-	color: #eee !important;
+    background-color: #112233;
+    color: #eee !important;
+}
+
+.welcome {
+    font-size: 48px;
+    padding: 10px;
 }

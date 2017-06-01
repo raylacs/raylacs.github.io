@@ -4,9 +4,6 @@ body {
   color: #eee !important;
 }
 
-hr {
-  color: #ddd !important;
-}
 
 /* Links */
 a,
@@ -19,4 +16,21 @@ a:visited {
 /* Cards*/
 .card {
     background-color: #234 !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+    background-color: #234 !important;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+/* Custom default button */
+.btn-custom,
+.btn-custom:hover,
+.btn-custom:focus {
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #369 !important;
+  border: .05rem solid #123;
 }

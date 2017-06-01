@@ -1,0 +1,22 @@
+body {
+  height: 100%;
+  background-color: #123 !important;
+  color: #eee !important;
+}
+
+hr {
+  color: #ddd !important;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover,
+a:visited {
+  color: #eee !important;
+}
+
+/* Cards*/
+.card {
+    background-color: #234 !important;
+}

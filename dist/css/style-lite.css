@@ -16,14 +16,14 @@ a:visited {
 /* Cards*/
 .card {
     background-color: #eee !important;
-    margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-top: 20px;
+    margin-bottom: 20px;    
 }
 
 .jumbotron {
     background-color: #eee !important;
-    margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-top: 20px;
+    margin-bottom: 20px;    
 }
 
 /* Custom default button */

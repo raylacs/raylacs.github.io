@@ -1,36 +1,24 @@
 body {
   height: 100%;
   background-color: #123 !important;
-  color: #eee !important;
+  color: #bdf !important;
 }
-
 
 /* Links */
 a,
 a:focus,
 a:hover,
 a:visited {
-  color: #eee !important;
+  color: #bdf !important;
 }
 
 /* Cards*/
 .card {
-    background-color: #234 !important;
+    background-color: #357  !important;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-.jumbotron {
-    background-color: #234 !important;
-    margin-top: 20px;
-    margin-bottom: 20px;    
-}
-
-/* Custom default button */
-.btn-custom,
-.btn-custom:hover,
-.btn-custom:focus {
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #369 !important;
-  border: .05rem solid #123;
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #def !important;
 }

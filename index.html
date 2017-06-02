@@ -12,39 +12,55 @@
     <!-- <link rel="stylesheet" href="dist/css/style-dark.css"> -->
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous">
 
     <!-- Ionicons -->
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
 
   </head>
   <body>
 
     <div class="container">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Ray Lacsamana</h1>
-          <p id="objective">
-            I am a web developer slash designer.
-          </p>
-          <p><a class="btn btn-custom btn-lg" onclick="document.getElementById('contact').scrollIntoView();" role="button">Say hi! »</a></p>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="card" id="title">
+            <div class="card-block">
+              <h1 class="card-title">
+                Ray Lacsamana
+              </h1>
+              <div class="card-text">
+                <p id="objective">
+                  I am a web developer slash designer.
+                </p>
+                <p><button class="btn btn-primary btn-lg"
+                  onclick="document.getElementById('contact').scrollIntoView();"
+                  role="button">
+                  Say hi! »
+                </button></p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> 
+      </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <div class="card" id="experience">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-map"></span>
                 Experience
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
-                  <h5>
+                  <h4>
                     Mr. Geek Mobile Solutions Inc.
-                  </h5>
+                  </h4>
                   <p>
                     <u>Software Engineer</u> | <i>Sep 2016 - present</i>
                   </p>
@@ -59,9 +75,9 @@
                 </div>
 
                 <div>
-                  <h5>
+                  <h4>
                     Canon Information Technologies Philippines, Inc.
-                  </h5>
+                  </h4>
                   <p>
                     <u>Software Engineer</u> | <i>May 2014 - Jul 2016</i>
                   </p>
@@ -77,9 +93,9 @@
                 </div>
 
                 <div>
-                  <h5>
+                  <h4>
                     Think Tank Software Development Lab
-                  </h5>
+                  </h4>
                   <p>
                     <u>Intern</u> | <i>Apr 2012 - Jun 2012</i>, <i>Apr 2013 - Jun 2013</i>
                   </p>
@@ -97,22 +113,21 @@
 
           <div class="card" id="certifications">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-ribbon-b"></span>
                 Certifications
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
-                  <h5>
-                    <a href="http://itpec.org">Information Technology Professional Examination Council (ITPEC)</a> <br>
-                  </h5>
+                  <h4>
+                    Information Technology Professional Examination Council
+                    <a href="http://itpec.org">
+                      (ITPEC)
+                    </a>
+                  </h4>
                   <p>
-                    <u>Fundamental IT Engineer (FE) Examination</u> | <i>May 2015</i>
-                  </p>
-                  <p>
-                    IT skills examination based on the Information Technology Engineers Examination of Information-technology Promotion Agency (IPA), Japan.
-                    (<a href="http://itpec.org/about/itpec-common-exam.html">Source</a>)
+                    <u>Fundamental IT Engineer (FE) Examination</u> | <i>Passed May 2015</i>
                   </p>
                 </div>
               </div>
@@ -121,16 +136,16 @@
 
           <div class="card" id="skills">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-wrench"></span>
                 Skills
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
-                  <h5>
-                    Web <br>
-                  </h5>
+                  <h4>
+                    Web / Mobile
+                  </h4>
                   <span class="badge badge-default">HTML</span>
                   <span class="badge badge-default">CSS</span>
                   <span class="badge badge-default">JavaScript</span>
@@ -139,39 +154,32 @@
                   <span class="badge badge-default">Angular 1.x</span>
                   <span class="badge badge-default">Angular 2</span>
                   <span class="badge badge-default">Firebase</span>
+                  <span class="badge badge-default">Ionic</span>
+                  <span class="badge badge-default">Android</span>
                 </div>
-                <br>
+
                 <div>
-                  <h5>
-                    Design <br>
-                  </h5>
+                  <h4>
+                    Design
+                  </h4>
                   <span class="badge badge-default">Adobe Illustrator</span>
                   <span class="badge badge-default">Adobe Photoshop</span>
                   <span class="badge badge-default">Figma</span>
                 </div>
-                <br>
+
                 <div>
-                  <h5>
-                    Mobile <br>
-                  </h5>
-                  <span class="badge badge-default">Ionic</span>
-                  <span class="badge badge-default">Android</span>
-                </div>
-                <br>
-                <div>
-                  <h5>
-                    Programming <br>
-                  </h5>
+                  <h4>
+                    Programming
+                  </h4>
                   <span class="badge badge-default">C</span>
                   <span class="badge badge-default">Java</span>
                   <span class="badge badge-default">Python</span>
                   <span class="badge badge-default">VBA</span>
                 </div>
-                <br>
                 <div>
-                  <h5>
-                    Others <br>
-                  </h5>
+                  <h4>
+                    Others
+                  </h4>
                   <span class="badge badge-default">Microsoft Office</span>
                   <span class="badge badge-default">SVN</span>
                   <span class="badge badge-default">Git</span>
@@ -185,30 +193,30 @@
         <div class="col-xs-12 col-sm-6">
           <div class="card" id="education">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-university"></span>
                 Education
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
-                  <h5>
+                  <h4>
                     Ateneo De Manila University<br>
-                  </h5>
+                  </h4>
                   <p>
-                    <u>BS Computer Science</u> | <i>Oct 2013</i>
+                    <u>BS Computer Science</u> | <i>Graduated Oct 2013</i>
                   </p>
                 </div>
 
                 <div>
-                  <h6>Minor in Management</h6>
+                  <h5>Minor in Management</h5>
                   <p>
                     The minor program for non-Management students provides a background to management concepts - accounting, finance, and marketing, among others.
                   </p>
                 </div>
 
                 <div>
-                  <h6>Specialization in Enterprise Systems</h6>
+                  <h5>Specialization in Enterprise Systems</h5>
                   <p>
                     The specialization emphasizes the design, development, and maintenance of large-scale, integrated systems used by large, globally-oriented enterprises.
                   </p>
@@ -219,29 +227,29 @@
 
           <div class="card" id="cocurriculars">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-star"></span>
                 Co-Curriculars
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
-                  <h5>
-                    Youth For Christ - Ateneo (YFC-A) <br>
-                  </h5>
+                  <h4>
+                    Youth For Christ - Ateneo (YFC-A)
+                  </h4>
                   <p>
                     <u>Associate Vice President for Communications</u> | <i>Mar 2012 - Mar 2013</i>
                   </p>
                 </div>
 
                 <div>
-                  <h5>
-                    Ateneo Commission On Elections (Ateneo COMELEC) <br>
-                  </h5>
+                  <h4>
+                    Ateneo Commission On Elections (Ateneo COMELEC)
+                  </h4>
                   <p>
                     <u>Commisioner for Human Resources</u> | <i>Oct 2010 - Sep 2011</i>
                   </p>
-              
+
                 </div>
               </div>
             </div>
@@ -249,10 +257,10 @@
 
           <div class="card" id="contact">
             <div class="card-block">
-              <h2 class="card-title">
+              <h3 class="card-title">
                 <span class="icon ion-paper-airplane"></span>
                 Contact
-              </h2>
+              </h3>
               <hr>
               <div class="card-text">
                 <div>
@@ -277,7 +285,7 @@
                 <div>
                   <span class="icon ion-social-facebook"></span>
                   <a href="https://www.facebook.com/iamraylacs">
-                    Facebook 
+                    Facebook
                   </a>
                 </div>
                 <div>
@@ -292,268 +300,6 @@
 
        </div>
       </div>
-<!-- 
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" id="experience">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-map"></span>
-                Experience
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <h5>
-                    Mr. Geek Mobile Solutions Inc.
-                  </h5>
-                  <p>
-                    <u>Software Engineer</u> | <i>Sep 2016 - present</i>
-                  </p>
-
-                  <p>
-                    <span class="badge badge-default">HTML</span>
-                    <span class="badge badge-default">CSS</span>
-                    <span class="badge badge-default">Firebase</span>
-                    <span class="badge badge-default">Ionic</span>
-                    <span class="badge badge-default">Angular 2</span>
-                  </p>
-                </div>
-
-                <div>
-                  <h5>
-                    Canon Information Technologies Philippines, Inc.
-                  </h5>
-                  <p>
-                    <u>Software Engineer</u> | <i>May 2014 - Jul 2016</i>
-                  </p>
-
-                  <p>
-                    <span class="badge badge-default">C</span>
-                    <span class="badge badge-default">Java</span>
-                    <span class="badge badge-default">Python</span>
-                    <span class="badge badge-default">SVN</span>
-                    <span class="badge badge-default">Git</span>
-                    <span class="badge badge-default">Jenkins</span>
-                  </p>
-                </div>
-
-                <div>
-                  <h5>
-                    Think Tank Software Development Lab
-                  </h5>
-                  <p>
-                    <u>Intern</u> | <i>Apr 2012 - Jun 2012</i>, <i>Apr 2013 - Jun 2013</i>
-                  </p>
-
-                  <p>
-                    <span class="badge badge-default">ASP.NET MVC</span>
-                    <span class="badge badge-default">HTML</span>
-                    <span class="badge badge-default">CSS</span>
-                    <span class="badge badge-default">JavaScript</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card" id="certifications">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-ribbon-b"></span>
-                Certifications
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <h5>
-                    <a href="http://itpec.org">Information Technology Professional Examination Council (ITPEC)</a> <br>
-                  </h5>
-                  <p>
-                    <u>Fundamental IT Engineer (FE) Examination</u> | <i>May 2015</i>
-                  </p>
-                  <p>
-                    IT skills examination based on the Information Technology Engineers Examination of Information-technology Promotion Agency (IPA), Japan.
-                    (<a href="http://itpec.org/about/itpec-common-exam.html">Source</a>)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" id="education">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-university"></span>
-                Education
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <h5>
-                    Ateneo De Manila University<br>
-                  </h5>
-                  <p>
-                    <u>BS Computer Science</u> | <i>Oct 2013</i>
-                  </p>
-                </div>
-
-                <div>
-                  <h6>Minor in Management</h6>
-                  <p>
-                    The minor program for non-Management students provides a background to management concepts - accounting, finance, and marketing, among others.
-                  </p>
-                </div>
-
-                <div>
-                  <h6>Specialization in Enterprise Systems</h6>
-                  <p>
-                    The specialization emphasizes the design, development, and maintenance of large-scale, integrated systems used by large, globally-oriented enterprises.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card" id="cocurriculars">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-star"></span>
-                Co-Curriculars
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <h5>
-                    Youth For Christ - Ateneo (YFC-A) <br>
-                  </h5>
-                  <p>
-                    <u>Associate Vice President for Communications</u> | <i>Mar 2012 - Mar 2013</i>
-                  </p>
-                </div>
-
-                <div>
-                  <h5>
-                    Ateneo Commission On Elections (Ateneo COMELEC) <br>
-                  </h5>
-                  <p>
-                    <u>Commisioner for Human Resources</u> | <i>Oct 2010 - Sep 2011</i>
-                  </p>
-              
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" id="skills">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-wrench"></span>
-                Skills
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <h5>
-                    Web <br>
-                  </h5>
-                  <span class="badge badge-default">HTML</span>
-                  <span class="badge badge-default">CSS</span>
-                  <span class="badge badge-default">JavaScript</span>
-                  <span class="badge badge-default">Responsive Web</span>
-                  <span class="badge badge-default">jQuery</span>
-                  <span class="badge badge-default">Angular 1.x</span>
-                  <span class="badge badge-default">Angular 2</span>
-                  <span class="badge badge-default">Firebase</span>
-                </div>
-                <br>
-                <div>
-                  <h5>
-                    Design <br>
-                  </h5>
-                  <span class="badge badge-default">Adobe Illustrator</span>
-                  <span class="badge badge-default">Adobe Photoshop</span>
-                  <span class="badge badge-default">Figma</span>
-                </div>
-                <br>
-                <div>
-                  <h5>
-                    Mobile <br>
-                  </h5>
-                  <span class="badge badge-default">Ionic</span>
-                  <span class="badge badge-default">Android</span>
-                </div>
-                <br>
-                <div>
-                  <h5>
-                    Programming <br>
-                  </h5>
-                  <span class="badge badge-default">C</span>
-                  <span class="badge badge-default">Java</span>
-                  <span class="badge badge-default">Python</span>
-                  <span class="badge badge-default">VBA</span>
-                </div>
-                <br>
-                <div>
-                  <h5>
-                    Others <br>
-                  </h5>
-                  <span class="badge badge-default">Microsoft Office</span>
-                  <span class="badge badge-default">SVN</span>
-                  <span class="badge badge-default">Git</span>
-                  <span class="badge badge-default">Agile development</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card" id="contact">
-            <div class="card-block">
-              <h2 class="card-title">
-                <span class="icon ion-paper-airplane"></span>
-                Contact
-              </h2>
-              <hr>
-              <div class="card-text">
-                <div>
-                  <span class="icon ion-android-call"></span>
-                  <a href="tel:+639178632020">
-                    [+63] 917 863 2020
-                  </a>
-                </div>
-                <div>
-                  <span class="icon ion-email"></span>
-                  <a href="mailto:iamraylacsamana@gmail.com">
-                    iamraylacsamana@gmail.com
-                  </a>
-                </div>
-                <div>
-                  <span class="icon ion-navigate"></span>
-                  <a href="https://www.google.com.ph/maps/place/Para%C3%B1aque,+Metro+Manila">
-                    Parañaque, Philippines
-                  </a>
-                </div>
-                <hr>
-                <div>
-                  <span class="icon ion-social-facebook"></span>
-                  <a href="https://www.facebook.com/iamraylacs">
-                    Facebook 
-                  </a>
-                </div>
-                <div>
-                  <span class="icon ion-social-linkedin"></span>
-                  <a href="https://www.linkedin.com/in/raylacsamana">
-                    LinkedIn
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-      </div>
- -->
     </div>
 
 

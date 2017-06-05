@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  background-color: #fff !important;
+  color: #111 !important;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover,
+a:visited {
+  color: #222 !important;
+}
+
+/* Cards*/
+.card {
+    background-color: #eee  !important;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+}
+
+/* Button */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary {
+  color: #fff;
+  background-color: #111 !important;
+  border-color: #000 !important;
+}

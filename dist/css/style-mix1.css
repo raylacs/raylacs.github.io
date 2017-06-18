@@ -1,7 +1,7 @@
 body {
   height: 100%;
-  background-color: #123 !important;
-  color: #ddd !important;
+  background-color: #234 !important;
+  color: #234 !important;
 }
 
 /* Links */
@@ -9,16 +9,16 @@ a,
 a:focus,
 a:hover,
 a:visited {
-  color: #ccc !important;
+  color: #345 !important;
 }
 
 /* Cards*/
 .card {
-    background-color: #246  !important;
+    background-color: #ffe8ef !important;
     margin-top: 20px;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #fff !important;
+    color: #123 !important;
 }
